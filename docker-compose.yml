@@ -6,10 +6,10 @@ services:
     container_name: magic5-website
     restart: unless-stopped
     ports:
-      - "8080:80"
+      - "8082:80"
     labels:
       - "com.casaos.appid=magic5-website"
       - "com.casaos.appname=Magic5 website"
-      - "com.casaos.appurl=http://localhost:8080"
+      - "com.casaos.appurl=http://localhost:8082"
       - "com.casaos.category=media"
       - "com.casaos.description=Localized Magic5 Website (TR/EN)"
