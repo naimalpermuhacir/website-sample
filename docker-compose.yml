@@ -2,9 +2,7 @@ version: "3.8"
 
 services:
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: alpermuhacir/magic5-website:latest
     container_name: magic5-website
     restart: unless-stopped
     ports:
