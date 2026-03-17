@@ -5,13 +5,13 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: magic5-clone
+    container_name: magic5-website
     restart: unless-stopped
     ports:
       - "8080:80"
     labels:
-      - "com.casaos.appid=magic5-clone"
-      - "com.casaos.appname=Magic5 Clone"
+      - "com.casaos.appid=magic5-website"
+      - "com.casaos.appname=Magic5 website"
       - "com.casaos.appurl=http://localhost:8080"
       - "com.casaos.category=media"
-      - "com.casaos.description=Localized Magic5 Website Clone (TR/EN)"
+      - "com.casaos.description=Localized Magic5 Website (TR/EN)"
